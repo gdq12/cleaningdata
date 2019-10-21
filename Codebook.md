@@ -1,4 +1,4 @@
-Getting and Cleaning Data: Cookbook
+Getting and Cleaning Data: Codebook
 ===================================
 
 Overview
