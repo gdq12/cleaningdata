@@ -67,7 +67,7 @@ Here, an outline is provided of the processing steps executed in run_analysis.R.
 
 6. Import the features.txt file as “features” and cleanup the feature character names by removing unnecessary character and repeated words 
 
-7. As per the assignment requirements, the mean and standard deviation measurements must be extracted. This is done by extracting column names from “features” that contain Mean and Stdev only and saved into “targetIndex”. To convert “targetIndex” from a character to a numerical index, it is matched back to the second column of “features”.
+7. As per the assignment requirements, the mean and standard deviation measurements must be extracted. This is done by extracting column names from “features” that contain Mean and Stdev only and saved into “targetIndex”. Due to these requirements, the list of calculated features is 66. To convert “targetIndex” from a character to a numerical index, it is matched back to the second column of “features”.
 
 8. The test data set must be first retrieved and cleaned up, so go into the test directory via setwd()
 
